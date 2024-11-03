@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		140C712A2BFC41A9000C993D /* playlists.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 140C71292BFC41A9000C993D /* playlists.mlmodel */; };
+		EB8984B92BFC591800B6705C /* SpotifyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8984B82BFC591800B6705C /* SpotifyManager.swift */; };
+		EB8984BF2BFC5B2000B6705C /* SpotifyiOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8984BE2BFC5B2000B6705C /* SpotifyiOS.xcframework */; };
+		EB8984C02BFC5B2000B6705C /* SpotifyiOS.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB8984BE2BFC5B2000B6705C /* SpotifyiOS.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB8984C32BFC65B200B6705C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8984C22BFC65B200B6705C /* AppDelegate.swift */; };
+		EB8984C52BFC66FF00B6705C /* senseMEE.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8984C42BFC66FF00B6705C /* senseMEE.swift */; };
+		EBAB3EEE2BDC4C1900C3EA57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAB3EED2BDC4C1900C3EA57 /* ContentView.swift */; };
+		EBAB3EF02BDC4C1A00C3EA57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBAB3EEF2BDC4C1A00C3EA57 /* Assets.xcassets */; };
+		EBD78C252BEC1735004618DF /* SensorDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD78C242BEC1735004618DF /* SensorDataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBAB3EF92BDC4C1A00C3EA57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBAB3EE02BDC4C1900C3EA57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBAB3EE72BDC4C1900C3EA57;
+			remoteInfo = senseMEE;
+		};
+		EBAB3F032BDC4C1A00C3EA57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBAB3EE02BDC4C1900C3EA57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBAB3EE72BDC4C1900C3EA57;
+			remoteInfo = senseMEE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB8984BC2BFC5A4D00B6705C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EB8984C02BFC5B2000B6705C /* SpotifyiOS.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		140C71292BFC41A9000C993D /* playlists.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = playlists.mlmodel; sourceTree = "<group>"; };
+		EB8984B52BFC585D00B6705C /* senseMEE-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "senseMEE-Bridging-Header.h"; sourceTree = "<group>"; };
+		EB8984B82BFC591800B6705C /* SpotifyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyManager.swift; sourceTree = "<group>"; };
+		EB8984BE2BFC5B2000B6705C /* SpotifyiOS.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SpotifyiOS.xcframework; path = "../../Downloads/ios-sdk-2.0.1 4/SpotifyiOS.xcframework"; sourceTree = "<group>"; };
+		EB8984C12BFC5B3000B6705C /* SpotifyiOS.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SpotifyiOS.xcframework; sourceTree = "<group>"; };
+		EB8984C22BFC65B200B6705C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB8984C42BFC66FF00B6705C /* senseMEE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = senseMEE.swift; sourceTree = "<group>"; };
+		EBAB3EE82BDC4C1900C3EA57 /* senseMEE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = senseMEE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAB3EED2BDC4C1900C3EA57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBAB3EEF2BDC4C1A00C3EA57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBAB3EF82BDC4C1A00C3EA57 /* senseMEETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = senseMEETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAB3F022BDC4C1A00C3EA57 /* senseMEEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = senseMEEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD78C242BEC1735004618DF /* SensorDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorDataManager.swift; sourceTree = "<group>"; };
+		EBD78C642BF1A859004618DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBAB3EE52BDC4C1900C3EA57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8984BF2BFC5B2000B6705C /* SpotifyiOS.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAB3EF52BDC4C1A00C3EA57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAB3EFF2BDC4C1A00C3EA57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB8984BD2BFC5B2000B6705C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB8984BE2BFC5B2000B6705C /* SpotifyiOS.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBAB3EDF2BDC4C1900C3EA57 = {
+			isa = PBXGroup;
+			children = (
+				EBAB3EEA2BDC4C1900C3EA57 /* senseMEE */,
+				EBAB3EE92BDC4C1900C3EA57 /* Products */,
+				EB8984BD2BFC5B2000B6705C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBAB3EE92BDC4C1900C3EA57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBAB3EE82BDC4C1900C3EA57 /* senseMEE.app */,
+				EBAB3EF82BDC4C1A00C3EA57 /* senseMEETests.xctest */,
+				EBAB3F022BDC4C1A00C3EA57 /* senseMEEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBAB3EEA2BDC4C1900C3EA57 /* senseMEE */ = {
+			isa = PBXGroup;
+			children = (
+				EB8984C12BFC5B3000B6705C /* SpotifyiOS.xcframework */,
+				EBD78C642BF1A859004618DF /* Info.plist */,
+				140C71292BFC41A9000C993D /* playlists.mlmodel */,
+				EB8984C42BFC66FF00B6705C /* senseMEE.swift */,
+				EBD78C242BEC1735004618DF /* SensorDataManager.swift */,
+				EBAB3EED2BDC4C1900C3EA57 /* ContentView.swift */,
+				EBAB3EEF2BDC4C1A00C3EA57 /* Assets.xcassets */,
+				EB8984B52BFC585D00B6705C /* senseMEE-Bridging-Header.h */,
+				EB8984B82BFC591800B6705C /* SpotifyManager.swift */,
+				EB8984C22BFC65B200B6705C /* AppDelegate.swift */,
+			);
+			path = senseMEE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBAB3EE72BDC4C1900C3EA57 /* senseMEE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBAB3F0C2BDC4C1A00C3EA57 /* Build configuration list for PBXNativeTarget "senseMEE" */;
+			buildPhases = (
+				EBAB3EE42BDC4C1900C3EA57 /* Sources */,
+				EBAB3EE52BDC4C1900C3EA57 /* Frameworks */,
+				EBAB3EE62BDC4C1900C3EA57 /* Resources */,
+				EB8984BC2BFC5A4D00B6705C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = senseMEE;
+			productName = senseMEE;
+			productReference = EBAB3EE82BDC4C1900C3EA57 /* senseMEE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBAB3EF72BDC4C1A00C3EA57 /* senseMEETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBAB3F0F2BDC4C1A00C3EA57 /* Build configuration list for PBXNativeTarget "senseMEETests" */;
+			buildPhases = (
+				EBAB3EF42BDC4C1A00C3EA57 /* Sources */,
+				EBAB3EF52BDC4C1A00C3EA57 /* Frameworks */,
+				EBAB3EF62BDC4C1A00C3EA57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBAB3EFA2BDC4C1A00C3EA57 /* PBXTargetDependency */,
+			);
+			name = senseMEETests;
+			productName = senseMEETests;
+			productReference = EBAB3EF82BDC4C1A00C3EA57 /* senseMEETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBAB3F012BDC4C1A00C3EA57 /* senseMEEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBAB3F122BDC4C1A00C3EA57 /* Build configuration list for PBXNativeTarget "senseMEEUITests" */;
+			buildPhases = (
+				EBAB3EFE2BDC4C1A00C3EA57 /* Sources */,
+				EBAB3EFF2BDC4C1A00C3EA57 /* Frameworks */,
+				EBAB3F002BDC4C1A00C3EA57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBAB3F042BDC4C1A00C3EA57 /* PBXTargetDependency */,
+			);
+			name = senseMEEUITests;
+			productName = senseMEEUITests;
+			productReference = EBAB3F022BDC4C1A00C3EA57 /* senseMEEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBAB3EE02BDC4C1900C3EA57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					EBAB3EE72BDC4C1900C3EA57 = {
+						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
+					};
+					EBAB3EF72BDC4C1A00C3EA57 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EBAB3EE72BDC4C1900C3EA57;
+					};
+					EBAB3F012BDC4C1A00C3EA57 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EBAB3EE72BDC4C1900C3EA57;
+					};
+				};
+			};
+			buildConfigurationList = EBAB3EE32BDC4C1900C3EA57 /* Build configuration list for PBXProject "senseMEE" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBAB3EDF2BDC4C1900C3EA57;
+			productRefGroup = EBAB3EE92BDC4C1900C3EA57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBAB3EE72BDC4C1900C3EA57 /* senseMEE */,
+				EBAB3EF72BDC4C1A00C3EA57 /* senseMEETests */,
+				EBAB3F012BDC4C1A00C3EA57 /* senseMEEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBAB3EE62BDC4C1900C3EA57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAB3EF02BDC4C1A00C3EA57 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAB3EF62BDC4C1A00C3EA57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAB3F002BDC4C1A00C3EA57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBAB3EE42BDC4C1900C3EA57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8984C52BFC66FF00B6705C /* senseMEE.swift in Sources */,
+				EB8984C32BFC65B200B6705C /* AppDelegate.swift in Sources */,
+				EBAB3EEE2BDC4C1900C3EA57 /* ContentView.swift in Sources */,
+				EB8984B92BFC591800B6705C /* SpotifyManager.swift in Sources */,
+				140C712A2BFC41A9000C993D /* playlists.mlmodel in Sources */,
+				EBD78C252BEC1735004618DF /* SensorDataManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAB3EF42BDC4C1A00C3EA57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAB3EFE2BDC4C1A00C3EA57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBAB3EFA2BDC4C1A00C3EA57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBAB3EE72BDC4C1900C3EA57 /* senseMEE */;
+			targetProxy = EBAB3EF92BDC4C1A00C3EA57 /* PBXContainerItemProxy */;
+		};
+		EBAB3F042BDC4C1A00C3EA57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBAB3EE72BDC4C1900C3EA57 /* senseMEE */;
+			targetProxy = EBAB3F032BDC4C1A00C3EA57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EBAB3F0A2BDC4C1A00C3EA57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBAB3F0B2BDC4C1A00C3EA57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBAB3F0D2BDC4C1A00C3EA57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = Z9F55LHFZM;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					SpotifyiOS.framework,
+					"$(PROJECT_DIR)/senseMEE",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = senseMEE/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To get ambient light data";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To access weather data around your location";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Detect noise levels to see if user is in crowded location.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = lebron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "senseMEE/senseMEE-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBAB3F0E2BDC4C1A00C3EA57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = Z9F55LHFZM;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					SpotifyiOS.framework,
+					"$(PROJECT_DIR)/senseMEE",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = senseMEE/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To get ambient light data";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To access weather data around your location";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Detect noise levels to see if user is in crowded location.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = lebron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "senseMEE/senseMEE-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBAB3F102BDC4C1A00C3EA57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uchicago.senseMEETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/senseMEE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/senseMEE";
+			};
+			name = Debug;
+		};
+		EBAB3F112BDC4C1A00C3EA57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uchicago.senseMEETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/senseMEE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/senseMEE";
+			};
+			name = Release;
+		};
+		EBAB3F132BDC4C1A00C3EA57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uchicago.senseMEEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = senseMEE;
+			};
+			name = Debug;
+		};
+		EBAB3F142BDC4C1A00C3EA57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uchicago.senseMEEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = senseMEE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBAB3EE32BDC4C1900C3EA57 /* Build configuration list for PBXProject "senseMEE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAB3F0A2BDC4C1A00C3EA57 /* Debug */,
+				EBAB3F0B2BDC4C1A00C3EA57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBAB3F0C2BDC4C1A00C3EA57 /* Build configuration list for PBXNativeTarget "senseMEE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAB3F0D2BDC4C1A00C3EA57 /* Debug */,
+				EBAB3F0E2BDC4C1A00C3EA57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBAB3F0F2BDC4C1A00C3EA57 /* Build configuration list for PBXNativeTarget "senseMEETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAB3F102BDC4C1A00C3EA57 /* Debug */,
+				EBAB3F112BDC4C1A00C3EA57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBAB3F122BDC4C1A00C3EA57 /* Build configuration list for PBXNativeTarget "senseMEEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAB3F132BDC4C1A00C3EA57 /* Debug */,
+				EBAB3F142BDC4C1A00C3EA57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBAB3EE02BDC4C1900C3EA57 /* Project object */;
+}
