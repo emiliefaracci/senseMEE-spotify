@@ -1,4 +1,5 @@
-# Sense MEE, or Ambient Spotify: Automated Playlist Controller using iPhone sensor data for activity detection
+# Ambient Spotify
+## Automated Playlist Controller using iPhone sensor data for activity detection
 
 ## Collaborators: 
 - Elizabeth Li
@@ -17,12 +18,6 @@ While current music streaming platforms offer personalized playlist curation, th
 
 ## Features
 
-<div style="display: flex; justify-content: center;">
-
-<img src="images/home_screen.png" alt="Home Screen" style="width: 45%; margin-right: 10px;">
-<img src="images/home_screen1.png" alt="Spotify Integration" style="width: 45%;">
-
-</div>
 - **Automated Playlist Selection:** The app classifies the user's activity and selects playlists that match their current "vibe," such as Calm & Mellow, Bright & Happy, Hype & Energizing, Emo Rock, and Sleep Mode.
 
 - **Continuous Sensing:** Utilizing a 5-second sliding window for data collection, the app updates music selection every second to ensure real-time responsiveness.
